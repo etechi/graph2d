@@ -1,5 +1,5 @@
 {
-  "name": "Graph2D",
+  "name": "graph2d",
   "main": "dist/graph2d.js",
   "repository": {
     "type": "git",
@@ -19,14 +19,13 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "*.*",
+    "bin",
+    "lib",
     "node_modules",
-    "bower_components",
-    "components",
+    "obj",
     "test",
-    "documentation",
-    "artwork",
-    "index.js",
+    "docs",
     "**/*.json",
     "**/*.md"
   ]
