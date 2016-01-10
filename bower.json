@@ -1,6 +1,11 @@
 {
   "name": "graph2d",
-  "main": "dist/graph2d.js",
+  "main": [
+    "dist/graph2d.js",
+    "dist/graph2d.min.js",
+    "dist/graph2d.d.ts",
+    "docs/index.html"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/etechi/graph2d.git"
