@@ -1,0 +1,33 @@
+{
+  "name": "Graph2D",
+  "main": "dist/graph2d.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/etechi/graph2d.git"
+  },
+  "version": "0.1.0",
+  "authors": [
+    "etechi (cy2000@gmail.com",
+  ],
+  "description": "A JavaScript 2D graphic library",
+  "keywords": [
+    "vector",
+    "line",
+    "polygon",
+    "graphic",
+    "2d"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "documentation",
+    "artwork",
+    "index.js",
+    "**/*.json",
+    "**/*.md"
+  ]
+}

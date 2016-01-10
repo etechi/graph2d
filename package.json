@@ -1,0 +1,40 @@
+{
+  "name": "graph2d",
+  "version": "0.1.0",
+  "description": "A JavaScript 2D graphic library",
+  "keywords": [
+    "vector",
+    "line",
+    "polygon",
+    "graphic",
+    "2d"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/etechi/graph2d.git"
+  },
+  "scripts": {
+    "build": "(echo '/*!' ; cat ./LICENSE ; echo '*/' ; browserify index.js --standalone Victor) > build/victor.js && cat build/victor.js | uglifyjs -mc --comments '/^!/' > build/victor.min.js",
+    "doc": "markdox index.js -o documentation/api.md",
+    "test": "mocha --ui bdd --reporter spec"
+  },
+  "author": "etechi <cy2000@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/etechi/graph2d/raw/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.10.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "merge2": "^0.3.6",
+    "chai": "^3.4.1"
+  }
+}
